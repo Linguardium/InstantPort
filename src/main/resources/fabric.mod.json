@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "instantport",
+  "version": "${version}",
+  "name": "InstantPort",
+  "description": "No more Nether Portal waiting",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/instantport/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "instantport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.8"
+  }
+}
